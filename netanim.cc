@@ -89,9 +89,9 @@ main (int argc, char *argv[])
   AnimationInterface anim("newanim.xml");
   anim.SetConstantPosition(p2pNodes.Get(0),5,5);
   anim.SetConstantPosition(csmaNodes.Get(0),10,10);
-  anim.SetConstantPosition(csmaNodes.Get(1),15,15);
-  anim.SetConstantPosition(csmaNodes.Get(2),20,20);
-  anim.SetConstantPosition(csmaNodes.Get(3),25,25);
+  anim.SetConstantPosition(csmaNodes.Get(1),30,30);
+  anim.SetConstantPosition(csmaNodes.Get(2),50,50);
+  anim.SetConstantPosition(csmaNodes.Get(3),75,75);
   anim.EnablePacketMetadata(true);
   Simulator::Run ();
   Simulator::Destroy ();
