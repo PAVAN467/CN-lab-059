@@ -36,3 +36,12 @@ cout<<"Bucket Output: "<<a<<"bytes";
 cout<<"Bucket outputted successfully";
 }
 }
+/*
+Enter the output rate: 100
+
+Packet No.: 1	Packet size: 886Bucket Overflow !!Bucket Output: 886bytesBucket outputted successfully
+Packet No.: 2	Packet size: 915Bucket Overflow !!Bucket Output: 915bytesBucket outputted successfully
+Packet No.: 3	Packet size: 335100bytes outputted
+100bytes outputted
+100bytes outputted
+*/
